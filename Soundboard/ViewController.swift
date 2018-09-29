@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // Plays sound when selected
     @IBAction func playSound(_ sender: UIButton) {
         print("button clicked")
         let label = sender.titleLabel?.text
